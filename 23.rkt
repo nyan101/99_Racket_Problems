@@ -2,7 +2,7 @@
 
 (define (rnd-select myList n)
   (define (element-at myList idx)
-  (if (null? myList)
+  	(if (null? myList)
       null
       (if (= idx 1)
           (first myList)
